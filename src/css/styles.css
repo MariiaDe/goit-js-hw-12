@@ -17,7 +17,7 @@
 @import url('./back-link.css');
 @import url('./footer.css');
 
-.search-form {
+.form {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -26,7 +26,7 @@
   margin-top: 36px;
 }
 
-.search-form input {
+.form input {
   border: 1px solid #808080;
   border-radius: 4px;
   width: 272px;
@@ -39,12 +39,12 @@
   padding: 8px 118px 8px 16px;
 }
 
-.search-form label input:hover {
+.form label input:hover {
   border: 1px solid #000;
 }
 
-.search-form label input:focus,
-.search-form label input:active {
+.form label input:focus,
+.form label input:active {
   border: 1px solid #4e75ff;
 }
 
